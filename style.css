@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: #141514;
     color: white;
     line-height: 1.6;
@@ -26,14 +26,14 @@ main {
 }
 
 nav {
-    
     /* background-color: #e02140; */
     padding: 10px;
     text-align: center;
 }
 
 h1 {
-    font-size: 2em;
+    font-family: 'Imperial Script', cursive;
+    font-size: 4em;
     color: white;
     margin-bottom: 0.5em;
 }
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
     font-size: 1.2em;
-    color: #3f8641;
+    color: white;
     margin-bottom: 0.5em;
 }
 
