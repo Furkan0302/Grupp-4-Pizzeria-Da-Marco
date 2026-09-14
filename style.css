@@ -26,7 +26,6 @@ main {
 }
 
 nav {
-    /* background-color: #e02140; */
     padding: 10px;
     text-align: center;
     width: 100%;
@@ -80,7 +79,7 @@ button {
 ol {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     margin-bottom: 10px;
 }
