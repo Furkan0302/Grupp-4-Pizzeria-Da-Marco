@@ -29,6 +29,7 @@ nav {
     /* background-color: #e02140; */
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
 
 h1 {
@@ -79,7 +80,7 @@ button {
 ol {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    justify-content: space-between;
     list-style-type: none;
     margin-bottom: 10px;
 }
