@@ -89,6 +89,23 @@ ol {
     margin-bottom: 10px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 80%;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2b2b2f;
+    color: white;
+}
+
 .hero {
     position: relative;
     width: 100%;

@@ -7,41 +7,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Beställ</title>
 </head>
 <body>
+    <nav>
+        <ol>
+            <!--Länkar till varje del-->
+            <li>
+                <a href="index.html">Hem</a>
+            </li>
+            <li>
+                <a href="om.html">Om oss</a>
+            </li>
+            <li>
+                <a href="meny.html">Meny</a>
+            </li>
+            <li>
+                <a href="beställ.html">Beställ</a>
+            </li>
+        </ol>
+    </nav>  
+
 <h1>Beställ</h1>
 <form action="#" method="post">
-  <label for="namn">Namn:</label>
-  <input type="text" id="namn" name="namn" required placeholder="Ditt namn" />
+    <label for="namn">Namn:</label>
+    <input type="text" id="namn" name="namn" required placeholder="Ditt namn" />
 
-  <label for="Telefon">Telefon:</label>
-  <input type="text" id="Telefon" name="Telefon" required placeholder="Ditt telefonnummer" />
-  <label for="Adress">Adress:</label>
-  <input type="text" id="Adress" name="Adress" required placeholder="Din adress" />
+    <label for="Telefon">Telefon:</label>
+    <input type="text" id="Telefon" name="Telefon" required placeholder="Ditt telefonnummer" />
+    <label for="Adress">Adress:</label>
+    <input type="text" id="Adress" name="Adress" required placeholder="Din adress" />
 
-<label for="Pizza Meny">Pizza Meny:</label>
-  <select id="land" name="Pizza Meny:">
-    <option value="">Pizza Meny</option>
-    <option value="se">Calzone</option>
-    <option value="no">Vesuvi</option>
-     <option value="no">Hawaii</option>
-      <option value="no">Margerita</option>
-       <option value="no">Fungi</option>
-        <option value="no">Caprecosa</option>
-  </select>
- 
+    <label for="Pizza Meny">Pizza Meny:</label>
+        <select id="land" name="Pizza Meny:">
+            <option value="">Pizza Meny</option>
+            <option value="se">Calzone</option>
+            <option value="no">Vesuvi</option>
+            <option value="no">Hawaii</option>
+            <option value="no">Margerita</option>
+            <option value="no">Fungi</option>
+                <option value="no">Caprecosa</option>
+        </select>
 
- 
+        <label for="Kommentar">Kommentar:</label>
+        <textarea   area id="Kommentar" name="Kommentar" rows="4"></textarea>
 
- 
-
- 
-
-  <label for="Kommentar">Kommentar:</label>
-  <textarea id="Kommentar" name="Kommentar" rows="4"></textarea>
-
-  <button type="submit">Beställ</button>
+        <button type="submit">Beställ</button>
 </form>
 
     
